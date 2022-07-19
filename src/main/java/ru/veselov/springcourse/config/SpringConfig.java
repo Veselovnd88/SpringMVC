@@ -13,7 +13,7 @@ import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration
-@ComponentScan("ru.veselov.springcourse")
+@ComponentScan("ru.veselov.springcourse")//сканирует рекурсивно все папки внутри
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer {
 
